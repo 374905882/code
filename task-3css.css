@@ -1,0 +1,64 @@
+body{font-family: Arial,'ËÎÌו','1em/1.5em','sans-serif';
+    list-style: none;
+    text-decoration: none;
+}
+.task_3 { position: relative;
+          min-width: 500px;
+          magin:20px 50px;
+          padding:20px;
+          background-color:#eee;
+          }
+.team-fix{float:left;
+          width:200px;
+          padding:20px;
+          background: #999;}
+.team-logo{float:left;
+           display:inline-block;
+           width:100px;
+           height: 105px;}
+.team-logo img{width: 100px;
+               height: 105px;}
+.team-name{font-weight: bold;
+           float: right;
+           width: 110px;
+           margin-top: 30%;
+           margin-left: 8px;
+           transform: translateY(-50%);
+           text-align: center;}
+.personal-all{
+          float: right;
+          width: 120px;
+          background-color: #fff;
+}
+.personal-logo{
+          -moz-box-sizing: border-box;
+          -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+          height: 80px;
+          width: 80px;
+          margin: 20px;}
+.personal-logo img{
+          width:80px;
+          height: 80px;
+}
+.team-introduction{
+                   width:auto;
+                   height: auto;
+                   margin-left: 280px;
+                   margin-right: 160px;
+                   padding: 20px;
+                   background-color: #fff;
+ }
+p{font-size: 15px; line-height: 1em;word-break: break-all;}
+.personal-logo,.task_3,.team-fix,.team-introduction,.team-logo,.team-name,.personal-logo,.personal-all{border: 1px solid #999}
+.clear:after {
+    display: block;
+    visibility: hidden;
+    clear: both;
+    height: 0;
+    content: ' ';
+}
+.clear{
+    overflow: hidden;
+    zoom: 1;
+    *zoom: 1;}
