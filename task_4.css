@@ -1,0 +1,35 @@
+html,body{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+    width:400px;
+    height: 200px;
+    background: #ccc;
+    position: absolute;
+    margin: auto;
+    top:0;bottom: 0;left: 0;right: 0;
+
+}
+.circle_1{
+    width: 50px;
+    height: 50px;
+    border-radius: 0 0 100% 0;
+    position: absolute;
+    background: #fc0;
+    right:350px;
+    bottom:150px;
+}
+.circle_2{
+    width: 50px;
+    height: 50px;
+    border-radius: 100% 0 0 0;
+    position:absolute;
+    background: #fc0;
+    left: 350px;
+    top:150px;
+}
